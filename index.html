@@ -111,9 +111,67 @@
           <p class="head">Admin Panel <br /><span>Development</span></p>
           <i class="fas fa-ellipsis-h dots"></i>
         </div>
+
+        <div class="nub-sec">
+          <p class="p2" style="background: #ffedcb; color: #927b40">b</p>
+          <p class="head">Admin Panel <br /><span>Development</span></p>
+          <i class="fas fa-ellipsis-h dots"></i>
+        </div>
+
+        <div class="nub-sec">
+          <p class="p2" style="background: #ffedcb; color: #927b40">b</p>
+          <p class="head">Admin Panel <br /><span>Development</span></p>
+          <i class="fas fa-ellipsis-h dots"></i>
+        </div>
+        <div class="nub-sec">
+          <p class="p2" style="background: #f5d1d1; color: #957272">o</p>
+          <p class="head">Admin Item <br /><span>Development</span></p>
+          <i class="fas fa-ellipsis-h dots"></i>
+        </div>
+
+        <div class="nub-sec">
+          <p class="p2" style="background: #ffedcb; color: #927b40">b</p>
+          <p class="head">Admin Panel <br /><span>Development</span></p>
+          <i class="fas fa-ellipsis-h dots"></i>
+        </div>
+
+        <div class="nub-sec">
+          <p class="p2" style="background: #ffedcb; color: #927b40">b</p>
+          <p class="head">Admin Panel <br /><span>Development</span></p>
+          <i class="fas fa-ellipsis-h dots"></i>
+        </div>
+
+        <div class="nub-sec">
+          <p class="p2" style="background: #ffedcb; color: #927b40">b</p>
+          <p class="head">Admin Panel <br /><span>Development</span></p>
+          <i class="fas fa-ellipsis-h dots"></i>
+        </div>
       </div>
     </section>
 
     <script src="chart.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".fa-long-arrow-left").click(function () {
+          $(".left-sidebar").hide(500);
+          $(".main").css("max-width", "72.5%");
+          $(".box").css("width", "181px");
+        });
+
+        $(".fa-long-arrow-right").click(function () {
+          $(".left-sidebar").show(500);
+          $(".main").css("max-width", "63.6%");
+          $(".box").css("width", "159px");
+        });
+
+        $(".menu-icon").click(function () {
+          $(".left-sidebar").slideToggle();
+          $(".main").css("max-width", "75%");
+        });
+      });
+    </script>
   </body>
 </html>
